@@ -1,0 +1,82 @@
+.Header{
+    font-size: 26px;
+    padding-block: 10px;
+    text-align: center;
+    background-color: rgb(172, 240, 242);
+}
+
+.Details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+  }
+  .Details img {
+    width: 300px;
+    height: 100%;
+  }
+  .detailSection {
+    display: flex;
+  }
+  .detailSection label,
+  .detailSection span {
+    width: 250px;
+    text-align: left;
+    padding: 5px;
+  }
+  .detailSection label{
+      font-weight: bold;
+  }
+.Info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: auto;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  table,
+  table td {
+    border: 1px solid black;
+  }
+  table thead {
+    font-weight: bold;
+  }
+  table td {
+    padding: 5px;
+  }
+  
+.ListeUsers{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 100%;
+    margin: auto;
+}
+.User {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .User image {
+    width: 350px;
+    height: 350px;
+  }
+  .User button {
+    cursor: pointer;
+    width: 70%;
+    background-color: rgb(135, 225, 228);
+    color: white;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 8px;
+    border: none;
+  }
+  .FullName{
+      font-size: 25px;
+      font-weight: bold;
+  }
